@@ -1,0 +1,633 @@
+/**
+Theme Name: Lin Theme
+Description: Custom theme for everyone
+Author: Sam Banihit
+Author URI: https://sam-banihit.vercel.app/
+Version: 1.0.0
+**/
+
+/* CSS CONTENT - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	1. Base style
+		1.1. Base Layout
+        1.2. Base Classes
+
+	2. Theme style
+        2.1. Theme Typography
+        2.2. Lin Slider               -- [lin_slider] + [lin_slider_item]
+        2.3. Lin Wrapper              -- [lin_wrapper]
+        2.4. Lin CTA (Call to Action) -- [lin_cta]
+        2.5. Lin Card                 -- [lin_card] + [lin-card-img] + [lin-card-title] + [lin-card-desc] + [lin-card-btn]
+
+    3. Post Types
+        3.1. Lin Portfolio            -- 
+        3.2. Lin Testimonial          -- [lin_testimonial]
+
+    4. Header
+        4.1. Header Layout
+        4.2. Responsive Header Menu Styles
+
+    5. Hero Section
+
+    6. Page
+        6.1. Page Hero Section
+
+    7. Responsiveness
+        7.1. Responsive Layout
+        7.2. Footer
+
+    
+
+        
+
+
+
+
+
+	4. Page Builder style
+	6. Spacing
+	8. Images
+	9. Elements
+		9.1 Timelines
+		9.2 Step Content
+		9.3 Social List
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+/* -------------------------------------------------------------------------------*/
+/* 2. Base style */
+/* -------------------------------------------------------------------------------*/
+
+    /* ----------------------------- */
+    /* 1.1. Base Layout */
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* ----------------------------- */
+    /* 1.2. Base Classes */
+    .btn {
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        display: inline-block;
+
+        padding: 12px 25px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 0 5px 0 0;
+        font-weight: 500;
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+    }
+
+/* -------------------------------------------------------------------------------*/
+/* 2. Theme style */
+/* -------------------------------------------------------------------------------*/
+
+    /* ----------------------------- */
+    /* 2.1. Theme Typography */
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /* ----------------------------- */
+    /* 2.2. Lin Slider */
+    .lin-slider-container{
+        width: 100%;
+        overflow: hidden;
+    }
+    .lin-slider-track{
+        display: flex;
+    }
+    .lin-slider-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        flex-shrink: 0;
+    }
+    .lin-slider-item img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+    }
+
+    /* ----------------------------- */
+    /* 2.3. Lin Wrapper */
+    .lin-wrapper{
+        padding: 40px 0px 40px 0px; 
+    }
+
+    /* ----------------------------- */
+    /* 2.4. Lin CTA (Call to Action) */
+    .lin-cta{
+        text-align:center; padding:60px 0px;
+    }
+
+    .lin-cta h2{
+        margin-bottom:15px;
+        font-weight:bold; 
+    }
+
+    .lin-cta p{
+        margin-bottom:20px; 
+    }
+
+    /* ----------------------------- */
+    /* 2.5. Lin Card */
+    .lin-card {
+        /* background: #fff; */
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        transition: all 0.3s ease;
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        /* display: flex; */
+        /* border: 1px solid white; */
+    }
+
+    .lin-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    .lin-card-body {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .lin-card img {
+        width: 100%;
+        display: block;
+    }
+
+    .lin-card-title {
+        font-size: 20px;
+        margin: 10px 0px 0px 0px;
+        font-weight: bold;
+    }
+
+    .lin-card-subtitle {
+        font-size: 16px;
+        margin: 5px 0px 10px 0px;
+    }
+
+    .lin-card-desc {
+        font-size: 14px;
+        margin: 15px 0px 15px 0px;
+    }
+
+    .lin-card-btn {
+        display: inline-block;
+        padding: 10px 16px;
+        background: #7c3aed;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 14px;
+        transition: background 0.3s ease;
+    }
+
+    .lin-card-btn:hover {
+        background: #6d28d9;
+    }
+
+/* -------------------------------------------------------------------------------*/
+/* 3. Post Types */
+/* -------------------------------------------------------------------------------*/
+
+    /* 3.1. Lin Portfolio */
+
+    /* 3.2. Lin Testimonial */
+    .lin-carousel-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .lin-carousel-container {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .lin-carousel-track {
+        display: flex;
+        transition: transform 0.4s ease;
+        will-change: transform;
+    }
+
+    .lin-carousel-slide {
+        flex: 0 0 33.3333%;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .testimonial-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        overflow: hidden;
+        border-radius: 14px;
+        padding: 20px;
+        min-height: 320px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        text-align: center;
+    }
+
+    .testimonial-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+
+    .testimonial-text {
+        font-size: 14px;
+        color: #333;
+    }
+
+    .testimonial-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .testimonial-client-name {
+        margin: 0;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .testimonial-client-position {
+        margin: 5px 0;
+        font-size: 14px;
+        color: #777;
+    }
+
+    .testimonial-client-rating {
+        color: #f5b50a;
+        font-size: 16px;
+    }
+
+    .lin-carousel-btn {
+        border: none;
+        background: #7c3aed;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 24px;
+        flex-shrink: 0;
+        transition: 0.2s ease;
+    }
+
+    .lin-carousel-btn:hover {
+        transform: scale(1.1);
+    }
+
+    /* Tablet = 2 slides */
+    @media (max-width: 991px) {
+        .lin-carousel-slide {
+            flex: 0 0 50%;
+        }
+    }
+
+    /* Mobile = 1 slide */
+    @media (max-width: 767px) {
+        .lin-carousel-slide {
+            flex: 0 0 100%;
+        }
+
+        .lin-carousel-wrapper {
+            gap: 8px;
+        }
+
+        .lin-carousel-btn {
+            width: 42px;
+            height: 42px;
+            font-size: 20px;
+        }
+    }
+
+/* -------------------------------------------------------------------------------*/
+/* 4. Header */
+/* -------------------------------------------------------------------------------*/
+
+    /* ----------------------------- */
+    /* 4.1. Header Layout */
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    header.transparent-header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+    }
+
+    header .top-bar {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    header .top-bar li {
+        position: relative;
+    }
+
+    header .top-bar li a {
+        color: inherit;
+        font-weight: 500;
+        text-decoration: none;
+        padding: 8px 14px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    header .top-bar li .sub-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+        width: 200px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .top-bar li .sub-menu a {
+        display: block;
+        padding: 15px;
+        color: #000;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    header .top-bar li.menu-item-has-children .sub-menu {
+        display: block; /* always block for transition */
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transform: translateY(-10px);
+        transition: all 0.3s ease;
+    }
+
+    header .top-bar li.menu-item-has-children:hover > .sub-menu,
+    header .top-bar .menu-item-has-children .sub-menu > .menu-item-has-children:hover > .sub-menu {
+        /* display: block; */
+        max-height: 1000px; /* large enough to fit content */
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .main-nav .top-bar li.menu-item-has-children > a::after {
+        content: ' ▾'; /* optional arrow indicator */
+    }
+
+    body:not(.transparent-header) .page-wrap.main-content {
+        padding-top: 80px;
+    }
+
+    .site-header {
+        position: relative;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .site-header.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* ----------------------------- */
+    /* 4.2. Responsive Header Menu Styles */
+
+    /* Hide toggle on desktop */
+    .menu-toggle {
+        display: none;
+        font-size: 28px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    /* Menu styles */
+    .main-nav .top-bar {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-nav .top-bar li a {
+        text-decoration: none;
+    }
+
+    /* Desktop submenu item divider */
+    .main-nav .top-bar li.menu-item-has-children .sub-menu li {
+        border-bottom: 1px solid rgba(0,0,0,0.05); /* very light divider */
+    }
+
+    .main-nav .top-bar li.menu-item-has-children .sub-menu li:last-child {
+        border-bottom: none; /* remove divider for last item */
+    }
+
+    /* Mobile view */
+    @media (max-width: 767px) {
+        .menu-toggle {
+            display: block;
+        }
+
+        /* All top-level menu items */
+        .main-nav .top-bar li a {
+            display: block;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* divider inside link */
+            padding: 15px 20px;
+        }
+
+        /* Remove border for last top-level menu item */
+        .main-nav .top-bar li:last-child > a {
+            border-bottom: none;
+        }
+
+        /* Submenu items */
+        .main-nav .top-bar li.menu-item-has-children .sub-menu li a {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* divider inside link */
+            padding: 12px 20px;
+        }
+
+        /* Remove border for last submenu item */
+        .main-nav .top-bar li.menu-item-has-children .sub-menu li:last-child > a {
+            border-bottom: none;
+        }
+
+        /* Base mobile submenu */
+        .main-nav .top-bar li.menu-item-has-children .sub-menu {
+            display: block; /* always block for transition */
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            background: #f7f7f7;
+        }
+
+        /* Active submenu */
+        .main-nav .top-bar li.menu-item-has-children.active > .sub-menu {
+            max-height: 1000px; /* large enough to fit content */
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .main-nav .top-bar {
+            display: none;
+            flex-direction: column;
+            background: white;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding: 20px 0;
+        }
+
+        .main-nav .top-bar li {
+            text-align: left;
+            padding-left: 10px;
+            /* margin: 10px 0; */
+            
+        }
+
+        .main-nav.active .top-bar {
+            display: flex;
+        }
+
+        .main-nav .top-bar li.menu-item-has-children > .sub-menu {
+            position: relative;
+            top: 0;
+            left: 0;
+            background: #f7f7f7;
+            padding: 0;
+        }
+
+        .main-nav .top-bar li.menu-item-has-children.active > .sub-menu {
+            display: block;
+        }
+
+        .main-nav .top-bar li.menu-item-has-children > a::after {
+            content: ' ▾'; /* optional arrow indicator */
+        }
+    }
+
+/* -------------------------------------------------------------------------------*/
+/* 5. Hero Section */
+/* -------------------------------------------------------------------------------*/
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+/* -------------------------------------------------------------------------------*/
+/* 6. Page */
+/* -------------------------------------------------------------------------------*/
+
+    /* ----------------------------- */
+    /* 6.1. Page Hero Section */
+    .page-hero {
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+    }
+
+/* -------------------------------------------------------------------------------*/
+/* 7. Responsiveness */
+/* -------------------------------------------------------------------------------*/
+
+    /* ----------------------------- */
+    /* 7.1. Responsive Layout */
+    @media (max-width: 767px) {
+        .container {
+            padding: 20px;
+        }
+    }
+
+    /* ----------------------------- */
+    /* 7.2. Footer */
+    @media (max-width: 767px) {
+        footer .col-lg-4,
+        footer .col-md-6,
+        footer .col-md-12 {
+            text-align: center !important;
+        }
+    }
+
+
+
+
+
+
+
+
