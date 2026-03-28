@@ -41,6 +41,16 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 
 ---
 
+## Color Palettes
+- **Primary:** #7c3aed
+- **Secondary:** #f45aaa
+- **Accent:** #22bad8
+- **Neutral Light:** #efeaf7
+- **Neutral Dark:** #28104e
+- **Text:** #333333
+  
+---
+
 ## Installation
 1. Upload the `lin` theme folder to `/wp-content/themes/`.
 2. Activate the theme via the **Appearance → Themes** menu in WordPress.
