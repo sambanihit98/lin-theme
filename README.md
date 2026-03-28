@@ -34,24 +34,27 @@ To use all features of Lin Theme, we recommend installing the following plugins:
 
 ## Shortcodes
 Lin Theme includes several handy shortcodes for content layout and styling:
-## Shortcodes
 
+### Layout
 - **[lin-wrapper]** – Wraps content into a container for structured layout.  
 - **[lin-row]** – Creates a horizontal row for columns, useful for grid layouts.  
 - **[lin-column]** – Defines a column inside a row; supports responsive sizing.  
-
-- **[lin-heading]** – Adds a styled heading (H1–H6) with customizable font and color.  
-- **[lin-subheading]** – Adds a smaller subheading with style options.  
-
 - **[lin-divider]** – Inserts a horizontal divider line to separate sections.  
 - **[lin-spacer]** – Adds vertical spacing between elements for better layout control.  
 
+### Text
+- **[lin-heading]** – Adds a styled heading (H1–H6) with customizable font and color.  
+- **[lin-subheading]** – Adds a smaller subheading with style options.  
 - **[lin-body-text]** – Displays paragraph text with optional styling.  
-- **[lin-button]** – Adds a clickable button with link, colors, and hover effects.  
 
-- **[lin-slider]** – Creates a slider/carousel for images, content, or cards.  
+### Buttons & Call-to-Action
+- **[lin-button]** – Adds a clickable button with link, colors, and hover effects.  
 - **[lin-cta]** – Adds a call-to-action section with heading, text, and button.  
 
+### Media & Interactive
+- **[lin-slider]** – Creates a slider/carousel for images, content, or cards.  
+
+### Content Blocks
 - **[lin-card]** – Displays a card layout for content blocks or services.  
 - **[lin-testimonial]** – Adds a testimonial block with user image, name, and text.  
 - **[lin-latest-portfolio]** – Shows latest portfolio items dynamically from your custom post type.
