@@ -28,10 +28,7 @@ Lin Theme comes with built-in customizer options so you can easily change the ap
 
 ## Required Plugins
 To use all features of Lin Theme, we recommend installing the following plugins:
-- **Contact Form 7** – for contact forms
-- **WooCommerce** – if you plan to have an online store
-- **Classic Editor or Gutenberg** – depending on which editor you prefer
-- **Any page builder plugins you need** (optional)
+- **Classic Editor** – restores the old WordPress editor for simpler editing.
 
 ---
 
