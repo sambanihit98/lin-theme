@@ -89,10 +89,20 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 |`marginbottom` |Sets the bottom margin. Accepts any CSS margin value, e.g., `10px`, `1rem`.|
 
 <sub>────────────</sub>
+
+#### `[lin-spacer]`
+**Description:** Adds vertical spacing between elements for better layout control. You can define different heights for desktop, tablet, and mobile devices.
+
+| Attributes | Description |
+|------------|-------------|
+|`height`	 |Default spacer height. Accepts any valid CSS height value, e.g., `20px`, `2rem`. **Default: 20px**. Used if no device-specific height is set.|
+|`sm`	       |Spacer height for mobile devices (`≤ 767px`). Accepts any CSS height value, e.g., `10px`.|
+|`md`	       |Spacer height for tablets (`≤ 991px`). Accepts any CSS height value, e.g., `15px`.|
+|`lg`	       |Spacer height for desktops (`> 991px`). Accepts any CSS height value, e.g., `30px`.|
+
+<sub>────────────</sub>
   
 
-- **** – Inserts a horizontal divider line to separate sections.  
-- **[lin-spacer]** – Adds vertical spacing between elements for better layout control.  
 
 ### Text
 - **[lin-heading]** – Adds a styled heading (H1–H6) with customizable font and color.  
