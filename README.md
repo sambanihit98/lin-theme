@@ -29,6 +29,16 @@ To use all features of Lin Theme, we recommend installing the following plugins:
 
 ---
 
+## Color Palettes
+- **Primary:** #7c3aed
+- **Secondary:** #f45aaa
+- **Accent:** #22bad8
+- **Neutral Light:** #efeaf7
+- **Neutral Dark:** #28104e
+- **Text:** #333333
+  
+---
+
 ## Shortcodes
 Lin Theme includes several handy shortcodes for content layout and styling:
 
@@ -127,16 +137,6 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 - **[lin-testimonial]** – Adds a testimonial block with user image, name, and text.  
 - **[lin-latest-portfolio]** – Shows latest portfolio items dynamically from your custom post type.
 - More shortcodes will be added as the theme develops.
-
----
-
-## Color Palettes
-- **Primary:** #7c3aed
-- **Secondary:** #f45aaa
-- **Accent:** #22bad8
-- **Neutral Light:** #efeaf7
-- **Neutral Dark:** #28104e
-- **Text:** #333333
 
 ---
 
