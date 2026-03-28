@@ -76,10 +76,22 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 |`display`	 |Optional CSS display value (e.g., `block`, `flex`, `inline`).|
 
 <sub>────────────</sub>
+
+#### `[lin-divider]`
+**Description:** Creates a horizontal divider line. Supports custom color, width, height, alignment, and bottom margin. 
+
+| Attributes | Description |
+|------------|-------------|
+|`color`	       |Sets the divider color. Accepts any valid CSS color value, e.g., `#7c3aed`, `red`, `rgba(0,0,0,0.5)`.|
+|`width`	       |Sets the divider width. Accepts any CSS width value, e.g., `60px`, `50%`.|
+|`height`	    |Sets the divider thickness. Accepts any CSS height value, e.g., `3px`.|
+|`align`	       |Sets horizontal alignment. Accepts `left`, `center`, `right`.|
+|`marginbottom` |Sets the bottom margin. Accepts any CSS margin value, e.g., `10px`, `1rem`.|
+
+<sub>────────────</sub>
   
 
-
-- **[lin-divider]** – Inserts a horizontal divider line to separate sections.  
+- **** – Inserts a horizontal divider line to separate sections.  
 - **[lin-spacer]** – Adds vertical spacing between elements for better layout control.  
 
 ### Text
