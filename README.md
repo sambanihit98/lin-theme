@@ -101,7 +101,7 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 |`lg`	       |Spacer height for desktops (`> 991px`). Accepts any CSS height value, e.g., `30px`.|
 
 
-**────────────────────────────────────────────────**
+**//────────────────────────────────────//**
 
 ### Text
 - **[lin-heading]** – Adds a styled heading (H1–H6) with customizable font and color.  
