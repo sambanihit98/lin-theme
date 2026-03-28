@@ -95,7 +95,7 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 
 | Attributes | Description |
 |------------|-------------|
-|`height`	 |Default spacer height. Accepts any valid CSS height value, e.g., `20px`, `2rem`. **Default: `20px`**. Used if no device-specific height is set.|
+|`height`	 |Default spacer height. Accepts any valid CSS height value, e.g., `20px`, `2rem`. Used if no device-specific height is set. **Default: `20px`**.|
 |`sm`	       |Spacer height for mobile devices (`≤ 767px`). Accepts any CSS height value, e.g., `10px`.|
 |`md`	       |Spacer height for tablets (`≤ 991px`). Accepts any CSS height value, e.g., `15px`.|
 |`lg`	       |Spacer height for desktops (`> 991px`). Accepts any CSS height value, e.g., `30px`.|
@@ -121,10 +121,7 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 <sub>────────────</sub>
 
 
-
-- **** – Adds a styled heading (H1–H6) with customizable font and color.
-
-- 
+ 
 - **[lin-subheading]** – Adds a smaller subheading with style options.  
 - **[lin-body-text]** – Displays paragraph text with optional styling.  
 
