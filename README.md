@@ -26,6 +26,7 @@ Lin Theme comes with built-in customizer options so you can easily change the ap
 ## Required Plugins
 To use all features of Lin Theme, we recommend installing the following plugins:
 - **Classic Editor** – restores the old WordPress editor for simpler editing.
+- **Advanced Custom Fields (ACF)** – required for the **Portfolio** and **Testimonial** post types to manage custom fields, images, and meta data for content display.
 
 ---
 
