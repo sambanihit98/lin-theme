@@ -47,9 +47,9 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 
 | Attributes | Description |
 |----------|-------------|
-| `justify` | Sets horizontal alignment of columns. Accepts Bootstrap options: `start`, `center`, `end`, `around`, `between`, `evenly`. |
-| `align` | Sets vertical alignment of columns. Accepts Bootstrap options: `start`, `center`, `end`, `baseline`, `stretch`. |
-| `g` | Sets the gutter (spacing between columns). Accepts numeric values corresponding to Bootstrap gutter classes. **Default: `4`**. |
+| `justify` | <ul><li>Sets horizontal alignment of columns. Accepts Bootstrap options: `start`, `center`, `end`, `around`, `between`, `evenly`.</li></ul> |
+| `align` | <ul><li>Sets vertical alignment of columns. Accepts Bootstrap options: `start`, `center`, `end`, `baseline`, `stretch`.</li></ul> |
+| `g` | <ul><li>Sets the gutter (spacing between columns). Accepts numeric values corresponding to Bootstrap gutter classes.</li> <li>**Default: `4`**.</li></ul> |
 
 <sub>────────────</sub>
 
