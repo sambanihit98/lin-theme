@@ -1,4 +1,4 @@
-# Lin Theme
+# Lin Theme (WIP)
 
 **Lin Theme** is a modern, lightweight, and fully responsive WordPress theme designed for businesses, portfolios, and creative websites. It combines clean aesthetics with flexible functionality, offering a professional look while maintaining fast performance.  
 
