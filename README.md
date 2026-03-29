@@ -271,6 +271,7 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 
 #### `[lin_testimonial]`
 **Description:** Displays a dynamic testimonial carousel from the `testimonial` custom post type.
+
 **Recommended:** Use at least 3 testimonials for proper carousel functionality.
 
 **Attributes:** None
