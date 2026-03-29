@@ -13,7 +13,7 @@
 ## Installation
 1. Upload the `lin` theme folder to `/wp-content/themes/`.
 2. Activate the theme via the **Appearance → Themes** menu in WordPress.
-3. Configure your customizer settings to adjust colors, fonts, and logo.
+3. Configure your customizer settings and add shortcodes to your pages or posts using the WordPress block editor or classic editor.
 
 ---
 
@@ -191,11 +191,11 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 
 | Attributes | Description |
 |------------|-------------|
-| `max-d`   | Maximum number of visible items on desktop. **Default:** `6` |
-| `max-t`   | Maximum number of visible items on tablet. **Default:** `4` |
-| `max-m`   | Maximum number of visible items on mobile. **Default:** `2` |
-| `height`  | Slider height. Accepts any CSS height value, e.g., `150px`. **Default:** `150px` |
-| `shadow`  | Adds shadow to items if set to `true`. **Default:** `false` |
+| `max-d`   | <ul><li>Maximum number of visible items on desktop.</li> <li>**Default:** `6`</li></ul> |
+| `max-t`   | <ul><li>Maximum number of visible items on tablet.</li> <li>**Default:** `4` </li></ul> |
+| `max-m`   | <ul><li>Maximum number of visible items on mobile.</li> <li>**Default:** `2` </li></ul> |
+| `height`  | <ul><li>Slider height.</li> <li>Accepts any CSS height value, e.g.,</li> `150px`. <li>**Default:** `150px` </li></ul> |
+| `shadow`  | <ul><li>Adds shadow to items if set to `true`.</li> <li>**Default:** `false` </li></ul> |
 
 ---
 
@@ -204,9 +204,9 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 
 | Attributes | Description |
 |------------|-------------|
-| `src`      | URL of the image to display. **Required.** |
-| `bg-color` | Background color of the slider item. Accepts any CSS color value. **Optional.** |
-| `padding`  | Inner spacing of the item. Accepts any CSS padding value. **Default:** `20px` | 
+| `src`      | <ul><li>URL of the image to display.</li><li> **Required.**</li> </ul>|
+| `bg-color` | <ul><li>Background color of the slider item.</li> <li>Accepts any CSS color value.</li> <li>**Optional.** </li></ul>|
+| `padding`  | <ul><li>Inner spacing of the item.</li> <li>Accepts any CSS padding value.</li> <li>**Default:** `20px`</li> </ul>| 
 
 **────────────────────────────────────**
 
@@ -267,7 +267,7 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 
 **────────────────────────────────────**
 
-### Content Blocks
+### Dynamic Content Blocks
 - **[lin-testimonial]** – Adds a testimonial block with user image, name, and text.  
 - **[lin-latest-portfolio]** – Shows latest portfolio items dynamically from your custom post type.
 - More shortcodes will be added as the theme develops.
