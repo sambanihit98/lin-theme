@@ -149,7 +149,7 @@ add_action('init', 'lin_portfolio_taxonomies');
 // ---------------------------------------------------------------------------
 // Testimonial Custom Post Type
 // ---------------------------------------------------------------------------
-function lin_register_testimonial_cpt()
+function lin_testimonial_cpt()
 {
     $labels = array(
         'name'               => 'Testimonials',
@@ -177,7 +177,7 @@ function lin_register_testimonial_cpt()
 
     register_post_type('testimonial', $args);
 }
-add_action('init', 'lin_register_testimonial_cpt');
+add_action('init', 'lin_testimonial_cpt');
 
 // ---------------------------------------------------------------------------
 // Testimonial Meta Box
