@@ -14,12 +14,6 @@
 1. Upload the `lin` theme folder to `/wp-content/themes/`.
 2. Activate the theme via the **Appearance → Themes** menu in WordPress.
 3. Configure your customizer settings to adjust colors, fonts, and logo.
-   
----
-
-## Customizer
-Lin Theme comes with built-in customizer options so you can easily change the appearance of your website without touching code:
-- to be added... 
 
 ---
 
@@ -47,6 +41,12 @@ Lin Theme uses the following front-end framework:
 | Neutral Light | `#efeaf7` | ![Neutral Light](https://singlecolorimage.com/get/efeaf7/40x20) |
 | Neutral Dark | `#28104e` | ![Neutral Dark](https://singlecolorimage.com/get/28104e/40x20) |
 | Text | `#333333` | ![Text](https://singlecolorimage.com/get/333333/40x20) |
+
+---
+
+## Customizer
+Lin Theme comes with built-in customizer options so you can easily change the appearance of your website without touching code:
+- to be added...
   
 ---
 
@@ -133,9 +133,20 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 
 <sub>────────────</sub>
 
+#### `[lin-subheading]`
+**Description:** Adds a styled subheading with customizable tag, alignment, font weight, color, size, and bottom margin.
 
+| Attributes | Description |
+|------------|-------------|
+|`tag` |<ul><li>Sets the HTML heading tag.</li><li>Accepts `h1`–`h6`.</li><li>**Default: `h5`**.</li></ul>|
+|`align` |<ul><li>Sets text alignment.</li><li>Accepts `left`, `center`, `right`.</li><li>**Default: `center`**.</li></ul>|
+|`fontweight` |<ul><li>Sets the font weight.</li><li>Accepts CSS font-weight values like `normal`, `bold`, `600`, etc.</li><li>**Default: `semibold`**.</li></ul>|
+|`color` |<ul><li>Sets the text color.</li><li>Accepts any valid CSS color value, e.g., `#6b6b6b`, `red`, `rgba(0,0,0,0.7)`.</li><li>**Default: `#6b6b6b`**.</li></ul>|
+|`marginbottom` |<ul><li>Sets bottom margin of the subheading.</li><li>Accepts any CSS margin value, e.g., `10px`, `1rem`.</li><li>**Default: `10px`**.</li></ul>|
+|`size` |<ul><li>Sets font size.</li><li>Accepts any CSS size value, e.g., `20px`, `1.25rem`.</li><li>**Default: `20px`**.</li></ul>|
+
+<sub>────────────</sub>
  
-- **[lin-subheading]** – Adds a smaller subheading with style options.  
 - **[lin-body-text]** – Displays paragraph text with optional styling.  
 
 ### Buttons & Call-to-Action
