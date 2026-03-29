@@ -55,6 +55,8 @@ Lin Theme uses the following front-end framework:
 
 Lin Theme includes several handy shortcodes for content layout and styling:
 
+**────────────────────────────────────**
+
 ### Layout
 #### `[lin-wrapper]`
 **Description:** Wraps content into a container for structured layout.
