@@ -30,6 +30,13 @@ To use all features of Lin Theme, we recommend installing the following plugins:
 
 ---
 
+## Dependencies
+Lin Theme uses the following front-end framework:
+
+- **Bootstrap 5** – required for the theme’s grid system, responsive layout, spacing utilities, and component styling used by several shortcodes.
+
+---
+
 ## Color Palettes
 
 | Name | Hex | Preview |
