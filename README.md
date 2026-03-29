@@ -156,8 +156,66 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 ### Media & Interactive
 - **[lin-slider]** – Creates a slider/carousel for images, content, or cards.  
 
+**────────────────────────────────────**
+
+### Card
+
+#### `[lin-card]`
+**Description:** A flexible card container that can hold nested card elements. Supports optional border styling.
+
+| Attributes | Description |
+|------------|-------------|
+| `border` | <ul><li>Sets the card border style.</li><li>Accepts any valid CSS border value, e.g., `1px solid #fff`.</li><li>**Default:** none.</li></ul> |
+
+<sub>────────────</sub>
+
+#### `[lin-card-img]`
+**Description:** Adds an image inside the card.
+
+| Attributes | Description |
+|------------|-------------|
+| `src` | <ul><li>Image source URL.</li><li>Required for the image to display.</li></ul> |
+| `alt` | <ul><li>Alternative text for accessibility and SEO.</li><li>Optional.</li></ul> |
+
+<sub>────────────</sub>
+
+#### `[lin-card-title]`
+**Description:** Adds the main title of the card.
+
+| Attributes | Description |
+|------------|-------------|
+| `color` | <ul><li>Text color of the title.</li><li>Accepts any valid CSS color value.</li><li>**Default:** `#333333`.</li></ul> |
+
+<sub>────────────</sub>
+
+#### `[lin-card-subtitle]`
+**Description:** Adds a subtitle or secondary heading inside the card.
+
+| Attributes | Description |
+|------------|-------------|
+| `color` | <ul><li>Text color of the subtitle.</li><li>Accepts any valid CSS color value.</li><li>**Default:** `#666666`.</li></ul> |
+
+<sub>────────────</sub>
+
+#### `[lin-card-desc]`
+**Description:** Adds descriptive paragraph text inside the card.
+
+| Attributes | Description |
+|------------|-------------|
+| `color` | <ul><li>Text color of the description.</li><li>Accepts any valid CSS color value.</li><li>**Default:** `#333333`.</li></ul> |
+
+<sub>────────────</sub>
+
+#### `[lin-card-btn]`
+**Description:** Adds a clickable button inside the card.
+
+| Attributes | Description |
+|------------|-------------|
+| `url` | <ul><li>Button link URL.</li><li>Accepts any valid URL.</li><li>**Default:** `#`.</li></ul> |
+
+**────────────────────────────────────**
+
 ### Content Blocks
-- **[lin-card]** – Displays a card layout for content blocks or services.  
 - **[lin-testimonial]** – Adds a testimonial block with user image, name, and text.  
 - **[lin-latest-portfolio]** – Shows latest portfolio items dynamically from your custom post type.
 - More shortcodes will be added as the theme develops.
