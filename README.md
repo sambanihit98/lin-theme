@@ -44,6 +44,21 @@ Lin Theme uses the following front-end framework:
 
 ---
 
+## Starter Page Templates
+
+Lin Theme includes ready-to-use shortcode templates that you can copy and paste into your WordPress pages.
+
+### Available Templates
+- [Homepage Template](./templates/homepage-template.txt)
+- [About Page Template](./templates/about-page-template.txt)
+- [Services Page Template](./templates/services-page-template.txt)
+- [Contact Page Template](./templates/contact-page-template.txt)
+- [Portfolio Page Template](./templates/portfolio-page-template.txt)
+
+> **Tip:** Open the file, copy the shortcode layout, and paste it into your page editor.
+
+---
+
 ## Customizer
 Lin Theme comes with built-in customizer options so you can easily change the appearance of your website without touching code:
 - to be added...
