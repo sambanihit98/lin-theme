@@ -110,12 +110,10 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 
 | Attributes | Description |
 |------------|-------------|
-|`height`	 |Default spacer height. Accepts any valid CSS height value, e.g., `20px`, `2rem`. Used if no device-specific height is set. **Default: `20px`**.|
-|`sm`	       |Spacer height for mobile devices (`≤ 767px`). Accepts any CSS height value, e.g., `10px`.|
-|`md`	       |Spacer height for tablets (`≤ 991px`). Accepts any CSS height value, e.g., `15px`.|
-|`lg`	       |Spacer height for desktops (`> 991px`). Accepts any CSS height value, e.g., `30px`.|
-
-
+|`height`	 |<ul><li>Default spacer height.</li><li>Accepts any valid CSS height value, e.g., `20px`, `2rem`.</li><li>Used if no device-specific height is set.</li><li>**Default: `20px`**.</li></ul>|
+|`sm`	       |<ul><li>Spacer height for mobile devices (`≤ 767px`).</li><li>Accepts any CSS height value, e.g., `10px`.</li></ul>|
+|`md`	       |<ul><li>Spacer height for tablets (`≤ 991px`).</li><li>Accepts any CSS height value, e.g., `15px`.</li></ul>|
+|`lg`	       |<ul><li>Spacer height for desktops (`> 991px`).</li><li>Accepts any CSS height value, e.g., `30px`.</li></ul>|
 
 **────────────────────────────────────**
 
@@ -126,12 +124,12 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 
 | Attributes | Description |
 |------------|-------------|
-|`tag`	    |Sets the HTML heading tag. Accepts `h1`–`h6`. **Default: `h1`**.|
-|`align`	    |Sets text alignment. Accepts `left`, `center`, `right`. **Default: `center`**.|
-|`fontweight`|Sets the font weight. Accepts CSS font-weight values like `normal`, `bold`, `600`, etc. **Default: `bold`**.|
-|`color`	       |Sets the text color. Accepts any valid CSS color value, e.g., `#333333`, `red`, `rgba(0,0,0,0.7)`. **Default: `#333333`**.|
-|`marginbottom` |Sets bottom margin of the heading. Accepts any CSS margin value, e.g., `10px`, `1rem`. **Default: `10px`**.|
-|`size`	       |Sets font size. Accepts any CSS size value, e.g., `50px`, `3rem`. **Default: `50px`**.|
+|`tag`	    |<ul><li>Sets the HTML heading tag.</li><li>Accepts `h1`–`h6`.</li><li>**Default: `h1`**.</li></ul>|
+|`align`	    |<ul><li>Sets text alignment.</li><li>Accepts `left`, `center`, `right`.</li><li>**Default: `center`**.</li></ul>|
+|`fontweight`|<ul><li>Sets the font weight.</li><li>Accepts CSS font-weight values like `normal`, `bold`, `600`, etc.</li><li>**Default: `bold`**.</li></ul>|
+|`color`	       |<ul><li>Sets the text color.</li><li>Accepts any valid CSS color value, e.g., `#333333`, `red`, `rgba(0,0,0,0.7)`.</li><li>**Default: `#333333`**.</li></ul>|
+|`marginbottom` |<ul><li>Sets bottom margin of the heading.</li><li>Accepts any CSS margin value, e.g., `10px`, `1rem`.</li><li>**Default: `10px`**.</li></ul>|
+|`size`	       |<ul><li>Sets font size.</li><li>Accepts any CSS size value, e.g., `50px`, `3rem`.</li><li>**Default: `50px`**.</li></ul>|
 
 <sub>────────────</sub>
 
