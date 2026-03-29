@@ -184,8 +184,29 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 
 **────────────────────────────────────**
 
-### Media & Interactive
-- **[lin-slider]** – Creates a slider/carousel for images, content, or cards.  
+### Sliders
+
+#### `[lin_slider]`
+**Description:** Creates a responsive slider container that holds multiple slider items. The number of visible items can be set for desktop, tablet, and mobile. Each item is added via the `[lin_slider_item]` shortcode.
+
+| Attributes | Description |
+|------------|-------------|
+| `max-d`   | Maximum number of visible items on desktop. **Default:** `6` |
+| `max-t`   | Maximum number of visible items on tablet. **Default:** `4` |
+| `max-m`   | Maximum number of visible items on mobile. **Default:** `2` |
+| `height`  | Slider height. Accepts any CSS height value, e.g., `150px`. **Default:** `150px` |
+| `shadow`  | Adds shadow to items if set to `true`. **Default:** `false` |
+
+---
+
+#### `[lin_slider_item]`
+**Description:** Represents an individual item within a `[lin_slider]` container. Can include an image, background color, and padding.
+
+| Attributes | Description |
+|------------|-------------|
+| `src`      | URL of the image to display. **Required.** |
+| `bg-color` | Background color of the slider item. Accepts any CSS color value. **Optional.** |
+| `padding`  | Inner spacing of the item. Accepts any CSS padding value. **Default:** `20px` | 
 
 **────────────────────────────────────**
 
