@@ -194,7 +194,7 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 | `max-d`   | <ul><li>Maximum number of visible items on desktop.</li> <li>**Default:** `6`</li></ul> |
 | `max-t`   | <ul><li>Maximum number of visible items on tablet.</li> <li>**Default:** `4` </li></ul> |
 | `max-m`   | <ul><li>Maximum number of visible items on mobile.</li> <li>**Default:** `2` </li></ul> |
-| `height`  | <ul><li>Slider height.</li> <li>Accepts any CSS height value, e.g.,</li> `150px`. <li>**Default:** `150px` </li></ul> |
+| `height`  | <ul><li>Slider height.</li> <li>Accepts any CSS height value, e.g.,`150px`.</li>  <li>**Default:** `150px` </li></ul> |
 | `shadow`  | <ul><li>Adds shadow to items if set to `true`.</li> <li>**Default:** `false` </li></ul> |
 
 ---
@@ -227,7 +227,7 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 | Attributes | Description |
 |------------|-------------|
 | `src` | <ul><li>Image source URL.</li><li>Required for the image to display.</li></ul> |
-| `alt` | <ul><li>Alternative text for accessibility and SEO.</li><li>Optional.</li></ul> |
+| `alt` | <ul><li>Alternative text for accessibility and SEO.</li></ul> |
 
 <sub>────────────</sub>
 
