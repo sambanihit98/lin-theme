@@ -146,8 +146,18 @@ Lin Theme includes several handy shortcodes for content layout and styling:
 |`size` |<ul><li>Sets font size.</li><li>Accepts any CSS size value, e.g., `20px`, `1.25rem`.</li><li>**Default: `20px`**.</li></ul>|
 
 <sub>────────────</sub>
- 
-- **[lin-body-text]** – Displays paragraph text with optional styling.  
+
+#### `[lin-body-text]`
+**Description:** Displays paragraph or body text with optional styling. Supports font size, color, and text alignment.
+
+| Attributes | Description |
+|------------|-------------|
+| `size`     | Sets the font size in pixels. Accepts numeric values only. If empty, it uses the global/default size. |
+| `color`    | Sets the text color. Accepts any valid HEX color value, e.g., `#333333`, `#ff0000`. **Default: `#333333`**. |
+| `align`    | Sets text alignment. Accepts `left`, `center`, `right`. If empty, uses default alignment. |
+
+**────────────────────────────────────**
+
 
 ### Buttons & Call-to-Action
 - **[lin-button]** – Adds a clickable button with link, colors, and hover effects.  
