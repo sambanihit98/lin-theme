@@ -51,8 +51,8 @@ Lin Theme uses the following front-end framework:
 ---
 
 ## Shortcodes
-Lin Theme includes several handy shortcodes for content layout and styling:
 > **Note:** Some layout shortcodes rely on Bootstrap classes for proper responsive behavior.
+Lin Theme includes several handy shortcodes for content layout and styling:
 
 ### Layout
 #### `[lin-wrapper]`
