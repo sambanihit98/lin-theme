@@ -39,6 +39,7 @@ Lin Theme uses the following front-end framework:
 | Secondary | `#f45aaa` | ![Secondary](https://singlecolorimage.com/get/f45aaa/40x20) |
 | Accent | `#22bad8` | ![Accent](https://singlecolorimage.com/get/22bad8/40x20) |
 | Neutral Light | `#efeaf7` | ![Neutral Light](https://singlecolorimage.com/get/efeaf7/40x20) |
+| Neutral Extra Light | `#f8fafc` | ![Neutral Extra Light](https://singlecolorimage.com/get/f8fafc/40x20) |
 | Neutral Dark | `#28104e` | ![Neutral Dark](https://singlecolorimage.com/get/28104e/40x20) |
 | Text | `#333333` | ![Text](https://singlecolorimage.com/get/333333/40x20) |
 
