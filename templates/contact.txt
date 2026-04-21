@@ -1,0 +1,28 @@
+[lin_wrapper]
+[lin_row]
+
+[lin_column col-lg="6"]
+[lin_heading align="left"]Get in Touch[/lin_heading]
+[lin_body_text]
+We'd love to hear from you! Whether you have a question, want to collaborate, or just want to say hello, feel free to reach out using the contact details below or the form on the right.
+[/lin_body_text]
+[lin_spacer]
+<div class="row mb-4">
+<div class="col-lg-6">
+[lin_anchor href="mailto:info@example.com"][lin_card]info@example.com[/lin_card][/lin_anchor]
+</div>
+<div class="col-lg-6">
+[lin_anchor href="tel:+1234567890"][lin_card]+123 4567 890[/lin_card][/lin_anchor]
+</div>
+</div>
+[lin_map height="200px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.823722324033!2d122.9400965745824!3d10.670786989471623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed1d5e3262191%3A0xe27a78f6af427add!2sSM%20City%20Bacolod!5e0!3m2!1sen!2sph!4v1774978603964!5m2!1sen!2sph"]
+[/lin_column]
+
+[lin_column col-lg="6"]
+[lin_body_text]
+<!--Form here...-->
+[/lin_body_text]
+[/lin_column]
+
+[/lin_row]
+[/lin_wrapper]
