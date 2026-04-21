@@ -1,0 +1,75 @@
+[lin_wrapper bg-color="#f4f0f9"] [lin_row] [lin_slider height="150px" max-d="6"]
+[lin_slider_item
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg"]
+[lin_slider_item
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg"]
+[lin_slider_item
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg"]
+[lin_slider_item
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg"]
+[lin_slider_item
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg"]
+[lin_slider_item
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg"]
+[lin_slider_item
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg"]
+[lin_slider_item
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg"]
+[/lin_slider] [/lin_row] [/lin_wrapper] [lin_wrapper]
+[lin_heading]Services[/lin_heading] [lin_subheading]Subheading here for this
+section[/lin_subheading] [lin_divider] [lin_row] [lin_column] [lin_body_text
+align="center"]Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.[/lin_body_text] [/lin_column] [/lin_row] [lin_spacer] [lin_row
+justify="center"] [lin_column col-lg="3" display="flex"] [lin_card]
+[lin_card_img
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg" alt="Card
+Image"] [lin_card_title]Card Title[/lin_card_title] [lin_card_desc]This is a
+short description for the card. Keep it simple and informative.[/lin_card_desc]
+[lin_button url="#"]Learn More[/lin_button] [/lin_card] [/lin_column]
+[lin_column col-lg="3" display="flex"] [lin_card] [lin_card_img
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg" alt="Card
+Image"] [lin_card_title]Card Title[/lin_card_title] [lin_card_desc]This is a
+short description for the card. Keep it simple and informative.[/lin_card_desc]
+[lin_button url="#"]Learn More[/lin_button] [/lin_card] [/lin_column]
+[lin_column col-lg="3" display="flex"] [lin_card] [lin_card_img
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg" alt="Card
+Image"] [lin_card_title]Card Title[/lin_card_title] [lin_card_desc]This is a
+short description for the card. Keep it simple and informative.[/lin_card_desc]
+[lin_button url="#"]Learn More[/lin_button] [/lin_card] [/lin_column]
+[lin_column col-lg="3" display="flex"] [lin_card] [lin_card_img
+src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg" alt="Card
+Image"] [lin_card_title]Card Title[/lin_card_title] [lin_card_desc]This is a
+short description for the card. Keep it simple and informative.[/lin_card_desc]
+[lin_button url="#"]Learn More[/lin_button] [/lin_card] [/lin_column] [/lin_row]
+[/lin_wrapper] [lin_wrapper bg-color="#f8fafc"] [lin_heading]Who We
+Are[/lin_heading] [lin_subheading]Subheading here for this
+section[/lin_subheading] [lin_divider] [lin_spacer] [lin_row align="center"]
+[lin_column col-lg="6"] [lin_body_text]Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+id est laborum.[/lin_body_text] [lin_spacer] [lin_body_text]Lorem ipsum dolor
+sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+qui officia deserunt mollit anim id est laborum.[/lin_body_text] [lin_spacer]
+[lin_button]Know More[/lin_button] [/lin_column] [lin_column col-lg="6"]
+<img
+  src="http://lin.test/wp-content/themes/lin/images/placeholder-1.jpg"
+  alt="Card Image"
+  style="border-radius: 20px"
+/>
+[/lin_column] [/lin_row] [/lin_wrapper] [lin_wrapper]
+[lin_heading]Portfolio[/lin_heading] [lin_subheading]Subheading here for this
+section[/lin_subheading] [lin_divider] [lin_row] [lin_column]
+[lin_latest_portfolio posts="3"] [lin_spacer] [lin_button align="center"]See
+Portfolio[/lin_button] [/lin_column] [/lin_row] [/lin_wrapper] [lin_wrapper
+bg-color="#f8fafc"] [lin_heading]Testimonial[/lin_heading]
+[lin_subheading]Subheading here for this section[/lin_subheading] [lin_divider]
+[lin_row] [lin_testimonial] [/lin_row] [/lin_wrapper] [lin_cta]
